@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios 🎃</h1>
+    <p>Permiten a los usuarios ingresar y enviar datos a un servidor para ser procesados</p>
+    <p>Es un parte de las mas importantes de los sitios web, por su interactividad y apoyo
+    a cumplir los objectivos del sitio     
+    </p>
+
+<!--
+ 
+Estructura basica
+
+<forms> -> Encapsula todos los campos de entrada y controles que usuarios pueden utilizar para enviarlos datos
+
+<imput> -> crea campos de entrada en los formularios hay varios tipos y se especifica con el atributo
+type="tiponput" son selfclosing o autocierre
+
+<label> -> Asocia una etiqueta de texto con un campo de entrada.mejora la acccesibilidad y permiten hacer clic en
+el texto y que el campo asociado obtenga el foco    
+
+
+-->
+
+<form>
+
+    <!--Ingresar cadenas de texto-->
+    <label for="">Tipo texto</label>
+    <input type="text">
+
+    <br>
+
+    <!--Ingresa email-->
+    <label for="">Tipo email</label>
+    <input type="email">
+
+ <br>
+
+ <!--Ingresa contraseña-->
+
+ <label for="">Tipo contraseña</label>
+ <input type="password">
+
+ <br>
+
+ <!--Boton de envio-->
+ <label for="">Tipo boton envio</label>
+ <input type="submit">
+
+ <br>
+
+ <!--Casilla de verificacion-->
+ <label for="">Tipo de verificacion</label>
+ <input type="checkbox">
+
+ <br>
+
+ <!--Boton de opcion-->
+ <label for="">Boton de opcion</label>
+ <input type="radio">
+
+ <br>
+
+ <!--Tipo color-->
+ <label for="">Tipo color</label>
+ <input type="color">
+
+ <br>
+
+ <!--Tipo fecha-->
+<label for="">Tipo fecha</label></form>
+<input type="date">
+ 
+<br>
+
+<!--Tipo archivo-->
+<label for="">Tipo cargar archivo</label>
+<input type="file">
+</form>
+
+<!--
+
+Elemento <select> define un menu desplegable que el usuario puede elegir
+-->
+
+<form>
+
+
+<label for="">Elemento seleccion</label>
+<select>    
+
+<option> value="">Mercurio</option>
+<option> value="">venus</option>
+<option> value="">Tierra</option>
+<option> value="">Marte</option>
+</form>
+
+<!--
+<Elemento textarea>
+    
+    atributos 
+    reows: numero de fila
+    cole: Numero de columnas
+    -->
+
+    <form>
+        <label for="">Area de texto</label>
+        <textarea rows="10" cols="30"></textarea>
+    </form>
+
+</body>
+</html>

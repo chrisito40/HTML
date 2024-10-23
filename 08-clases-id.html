@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clases id</title>
+</head>
+<body>
+    
+    <h1>Clases Id</h1>
+    <p>Las clases y ils se utilizan para identificar y agrupar elementos un 
+     documento html.   
+    </p>
+
+    <p>Nos permiten aplicar comportamientos específicos a estos elementos</p>
+
+    <!--
+    Atributo id
+
+    Se utilizan para identificar de manera unica un elemento de la página
+    
+    No pueden haber mas de un elemnto con el mismo id
+
+    Se utilizan para seleccionar un elemnto especifico de CSS o Javascript
+
+    id="nombreid"
+    
+    -->
+    <h2 id=title-1>piña 🍍</h2>
+    <h2 id=title-2>coco 🥥</h2>
+
+    <style>
+     /* Aquí escribimos css*/
+
+     #title-1 {
+        /*aqui se escriben las propiedades*/
+        color: blue;
+        font-size: 36px;
+     }
+
+    </style>
+    
+    <style>
+        
+        #title-2 {
+    /*aqui se escriben las propiedades*/
+    color: green;
+    font size: 20px;
+    }
+    </style>
+
+    <!--
+     Atributo Class
+     Se utlizan para agrupar varios elementos bajo una misma clase
+     
+     A diferencia de las clases podemos usar la misma clase para varios elementos
+     de la pagina
+
+     Sirve para aplicar estilos o comportamientos a un conjunto  de elemntos que 
+     comparten algo en común 
+     class="nombreClase"
+
+    -->
+
+    <section>
+        <h3 class="Subtitle">Kaboom 1</h3>
+        <p class="Paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate enim odit maiores doloribus debitis ipsum! Recusandae ullam eaque fugiat eius, praesentium voluptatibus placeat cumque nesciunt, error, possimus totam vitae repudiandae.</p>
+    </section>
+
+    <section>
+        <h3 class="Subtitle">Kaboom 2</h3>
+        <p class="Paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate enim odit maiores doloribus debitis ipsum! Recusandae ullam eaque fugiat eius, praesentium voluptatibus placeat cumque nesciunt, error, possimus totam vitae repudiandae.</p>
+    </section>
+
+    <section>
+        <h3 class="Subtitle">Kaboom 3</h3>
+        <p class="Paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate enim odit maiores doloribus debitis ipsum! Recusandae ullam eaque fugiat eius, praesentium voluptatibus placeat cumque nesciunt, error, possimus totam vitae repudiandae.</p>
+    </section>
+
+    <section>
+        <h3 class="Subtitle">Kaboom 4</h3>
+        <p class="Paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate enim odit maiores doloribus debitis ipsum! Recusandae ullam eaque fugiat eius, praesentium voluptatibus placeat cumque nesciunt, error, possimus totam vitae repudiandae.</p>
+    </section>
+
+
+    <style>
+        .Subtitle {
+         color: darkslateblue;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-size: 40px;
+         background-color: chartreuse;
+        }
+       
+        .Paragraph {
+            color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            background-color: red;
+
+        }
+
+    </style>
+
+</body>
+</html>
